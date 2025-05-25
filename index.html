@@ -11,16 +11,19 @@
     </head>
 
     <body>
-        <div class="heading">
+        <div id="heading">
             <h1>Generate a <br><span id="highlight">random password</span></h1>
             <script src="main.js"></script>
         </div>
 
-        <div class="subtext">
+        <div id="subtext">
             <p>Stay cyber-safe out there.</p>
         </div>
-
-        <button onclick="generatePassword()">Generate Password</button>
+        <div id="generate-password">
+            <button onclick="generatePassword()">Generate Password</button>
+            <p id="length-el">Length: </p>
+            <input id="length-input" type="text">
+        </div>
         <p><hr></p> 
         <div class="password-el hidden"> 
             <p class="password">Password</p>

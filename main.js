@@ -3,7 +3,14 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 
 function generatePassword() {
     let password = "";
-    for (let i = 0; i < 15; i++) {
+    length = document.getElementById("length-input").value;
+
+    if (length == 0) {
+        length = 15;
+    }
+
+    console.log(length);
+    for (let i = 0; i < length; i++) {
         let randNum = Math.floor( Math.random() * characters.length );
         password += characters[randNum];
     }
