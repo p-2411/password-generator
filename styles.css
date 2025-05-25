@@ -1,0 +1,55 @@
+body {
+    background: #1F2937;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 50px;
+    font-family: Inter;
+}
+
+h1 {
+    font-family: "Karla";
+    color: white;
+    margin-bottom: 10px;
+}
+
+#highlight {
+    color: #4ADF86;
+}
+
+hr {
+    width: 60vw;
+    border: 1px solid #2F3E53;
+}
+
+p {
+    margin-top: 0px;
+    color: rgb(189, 189, 189);
+    /* font-size: 20px; */
+}
+
+button {
+    font-family: Inter;
+    height: 50px;
+    width: 211px;
+    border-radius: 8px;
+    background-color: #10B981;
+    color: white;
+    font-size: 15px;
+    border: 0px;
+}
+
+.password-el {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 60vw;
+    height: 20vh;
+    border-radius: 8px;
+    color: #10B981;
+    background-color: #11171e;
+    font-size: 40px;
+    
+}
