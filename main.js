@@ -7,6 +7,8 @@ function generatePassword() {
 
     if (length == 0) {
         length = 15;
+    } else if (length > 30) {
+        length = 30;
     }
 
     console.log(length);
